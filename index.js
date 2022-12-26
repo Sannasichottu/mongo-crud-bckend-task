@@ -27,6 +27,6 @@ connection.once('open',()=>{
     console.log("Mongoose connection successfully")
 })
 
-app.listen(3001,()=>{
+app.listen(process.env.PORT,()=>{
     console.log("Server running on port 3001")
 })
